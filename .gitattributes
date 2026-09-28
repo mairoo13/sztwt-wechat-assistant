@@ -1,0 +1,7 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf
+# Preserve upstream license text, including its existing whitespace.
+third-party-licenses/* -whitespace
